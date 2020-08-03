@@ -15,6 +15,7 @@ class CreateChecklistsTable extends Migration
     {
         Schema::create('checklists', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->foreignId('user_id')->constrained()->onDelete('cascade');
             $table->string('checklist_name');
             $table->timestamps();
         });
