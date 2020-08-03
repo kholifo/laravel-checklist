@@ -10,4 +10,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+.idea/php.xml
+.idea/todolist.iml
+.php_cs.cache
+.rnd
 .idea
