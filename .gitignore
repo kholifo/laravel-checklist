@@ -13,3 +13,6 @@ yarn-error.log
 .php_cs.cache
 .rnd
 .idea/
+.DS_Store
+app/Http/.DS_Store
+resources/.DS_Store
