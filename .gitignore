@@ -10,6 +10,12 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD
 .idea/
 .php_cs.cache
 .rnd
+=======
+.DS_Store
+app/Http/.DS_Store
+resources/.DS_Store
+>>>>>>> release/1.0
